@@ -1,0 +1,170 @@
+body{
+    margin-right: 80px;
+    margin-left: 80px;
+    align-items: center;
+}
+#top{
+    text-align: center;
+    padding-top: 30px;
+    color: ivory;
+    font-size: 20px;
+    padding-bottom: 40px;
+   }
+#cake{
+    background-image: url("./assets/landing.jpg");
+    background-repeat: no-repeat;
+}
+#logo{
+    padding-top:35px;
+    text-align: center;
+}
+#buton{
+    background-color: white;
+    color: #f25c2a;
+    border: solid #f25c2a;
+    padding:3px;
+    border-radius: 8px;
+}
+.foodlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;     
+
+    
+}
+#first{
+         display:table-cell; 
+         text-align: center; 
+         width: 25% ;  
+}
+#five{
+    background-color: gainsboro;
+    color: black;
+}
+#six{
+    background-color:red;
+    color: white;
+}
+
+#second{
+    background-image: url("./assets/breakfast.jpg"); width: 25%;
+}
+#third{
+    background-image: url("./assets/lunch.jpg"); width: 25%;
+}
+#fourth{
+    background-image: url("./assets/dinner.jpg"); width: 25%;
+}
+#second,#third,#fourth{
+              display: flex;
+              justify-content: space-evenly;
+              font-style: italic;
+              color: white;
+              text-align: center;
+              padding-bottom: 0px;
+}
+.middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+#pics{
+    padding:10px;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: content-box;
+    display: inline-flex;
+    border-color: whitesmoke;
+    float: left;
+}
+
+#fries{
+    color:black;
+    font-size: 20px;
+
+}
+#cocktails{
+    float:right;
+    text-align: left;
+}
+.menu{
+    background-image: url();
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 0px;
+}
+
+#nav{
+    background-color: cornsilk;
+    padding:0px
+}
+#nav,ul,h4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+#foods{
+    background-color: cornsilk;
+    display: flex;
+    color: red;
+    justify-content: space-evenly;
+    margin: 5%;
+    padding-bottom: 10px;
+}
+.menu{
+    background-image: url("./assets/foodsBg.jpg");
+}
+
+
+
+.table{
+    line-height: 1.2em;
+    border-color:gainsboro ;
+    border-radius: 5px;
+    border-style: groove;
+    overflow: auto;
+}
+.moja{
+    width: 60%;
+}
+.mbili{
+    width: 40%;
+}
+td{
+    text-align: center;
+}
+.table{
+       width:250px ;
+}
+.table,tr,td{
+        line-height: 1.2em;
+        border:1px gainsboro;
+        padding: 5px;
+        border-collapse: separate;
+      }
+
+
+
+
+
+
+.contact{
+    background-image: url("./assets/subscribe.jpg");
+    text-align: center;
+    color: white;
+
+}
+#ten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#fb{
+    background-color:#F15A29;
+}
+
+
+
+  
