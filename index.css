@@ -1,8 +1,7 @@
 body{
-    margin-right: 80px;
-    margin-left: 80px;
-    align-items: center;
+    
 }
+
 #top{
     text-align: center;
     padding-top: 30px;
@@ -13,6 +12,11 @@ body{
 #cake{
     background-image: url("./assets/landing.jpg");
     background-repeat: no-repeat;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: white;
+
 }
 #logo{
     padding-top:35px;
@@ -36,13 +40,15 @@ body{
          display:table-cell; 
          text-align: center; 
          width: 25% ;  
+         background-color: #f25c2a;
 }
 #five{
     background-color: gainsboro;
     color: black;
+    padding: 10px;
 }
 #six{
-    background-color:red;
+    
     color: white;
 }
 
@@ -72,11 +78,13 @@ body{
 }
 #fastfood{
     display: flex;
+    margin-top: 20px;
     
 }
 .drinks{
     display: flex;
     text-align: right;
+    margin-top: 40px;
 }
 #mojito{
     display: flex;
@@ -180,6 +188,10 @@ td{
 }
 #fb{
     background-color:#F15A29;
+}
+footer{
+    background-color: #f25c2a;
+    
 }
 
 
