@@ -134,9 +134,7 @@ body{
     background-color: cornsilk;
     display: flex;
     color: red;
-    justify-content: space-evenly;
-    margin: 5%;
-    padding-bottom: 10px;
+    justify-content:space-between;
 }
 .menu{
     background-image: url("./assets/foodsBg.jpg");
