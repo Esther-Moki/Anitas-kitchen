@@ -163,17 +163,19 @@ td{
 .table{
        width:250px ;
 }
-.table,tr,td{
-        line-height: 1.2em;
-        border:1px gainsboro;
-        padding: 5px;
-        border-collapse: separate;
-      }
+.customers{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 5px 5px grey;
 
+    
 
-
-
-
+}
+.reviews{
+    
+}
 
 .contact{
     background-image: url("./assets/subscribe.jpg");
@@ -181,6 +183,23 @@ td{
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+
+}
+.button2{
+    background-color: #f25c2a;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
 
 }
 #ten{
