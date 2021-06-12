@@ -179,19 +179,24 @@ td{
     background-image: url("./assets/subscribe.jpg");
     text-align: center;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 #ten{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align: center;
 }
 #fb{
     background-color:#F15A29;
 }
 footer{
     background-color: #f25c2a;
-    
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.fmenu{
+    font-size: 20px;
 }
 
 
