@@ -66,7 +66,25 @@ body{
 .middle{
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#fastfood{
+    display: flex;
+    
+}
+.drinks{
+    display: flex;
+    text-align: right;
+}
+#mojito{
+    display: flex;
+    
+}
+.cocktails{
+    text-align: right;
+    padding-right: 20px;
 }
 #pics{
     padding:10px;
@@ -76,7 +94,6 @@ body{
     box-sizing: content-box;
     display: inline-flex;
     border-color: whitesmoke;
-    float: left;
 }
 
 #fries{
@@ -84,8 +101,8 @@ body{
     font-size: 20px;
 
 }
+
 #cocktails{
-    float:right;
     text-align: left;
 }
 .menu{
