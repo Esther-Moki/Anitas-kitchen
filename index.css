@@ -1,6 +1,11 @@
 body{
     font-family: 'Baloo Tammudu 2', cursive;
 }
+span{
+    color: white;
+    float: left;
+    margin-left: 2%;
+  }
 #top{
     text-align: center;
     padding-top: 30px;
@@ -47,15 +52,17 @@ body{
 }
 #fourth{
     background-image: url("./assets/dinner.jpg"); width: 25%;
+    
 }
 #second,#third,#fourth{
               display: flex;
               justify-content: space-evenly;
+              padding-top: 30px;
               font-style: italic;
               color: white;
               text-align: center;
               padding-bottom: 0px;
-}
+    }
 .middle{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -146,11 +153,20 @@ th:hover{
     padding-top: 10px;
     display: flex;
     width: 70%;
-    height: 60%;
+    height: 70%;
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 5px 5px 5px 5px grey;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#nn,#mm{
+    color: #f25c2a;
+    font-size: 20px;
+}
+#about{
+    text-align: justify;
 }
 
 .contact{
@@ -181,7 +197,7 @@ footer{
     text-align: center;
     color: white;
     padding-top: 10px;
-    
+    margin-top: 30px;
 }
 .contact{
     padding-bottom: 0px;
@@ -189,6 +205,7 @@ footer{
 }
 .fmenu{
     font-size: 20px;
+    margin-top: 10px;
 }
 
 
