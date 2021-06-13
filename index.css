@@ -78,7 +78,8 @@ body{
 .drinks{
     display: flex;
     text-align: right;
-    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .cocktails{
     text-align: right;
@@ -98,9 +99,9 @@ body{
     margin-top: 20px;
 }
 #menu{
-    padding-top: 15px;
     background-image: url("./assets/foodsBg.jpg");
     padding-bottom: 15px;
+    padding-top: 15px;
 }
 #main{
     padding-top: -5px;
@@ -141,8 +142,8 @@ th:hover{
     color:#f25c2a;
     justify-content:space-around;
 }
-.customers{
-    padding-top:2--0px;
+#customers{
+    padding-top: 20px;
     display: flex;
     width: 80%;
     margin-left: 10%;
@@ -173,22 +174,22 @@ input{
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 8px;
-
-}
-#ten{
-    text-align: center;
-}
-#fb{
-    background-color:#F15A29;
 }
 footer{
     background-color: #f25c2a;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding: 20px;
+    
+}
+.contact{
+    padding-bottom: 0px;
+    padding-top: 15px;
 }
 .fmenu{
     font-size: 20px;
+    padding: 0px;
+    margin-top: -10px;
 }
 
 
