@@ -1,7 +1,6 @@
 body{
-    
+    font-family: 'Baloo Tammudu 2', cursive;
 }
-
 #top{
     text-align: center;
     padding-top: 30px;
@@ -16,25 +15,15 @@ body{
     padding-bottom: 50px;
     font-size: 30px;
     color: white;
-
 }
 #logo{
     padding-top:35px;
     text-align: center;
 }
-#buton{
-    background-color: white;
-    color: #f25c2a;
-    border: solid #f25c2a;
-    padding:3px;
-    border-radius: 8px;
-}
 .foodlist{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;     
-
-    
 }
 #first{
          display:table-cell; 
@@ -48,10 +37,8 @@ body{
     padding: 10px;
 }
 #six{
-    
     color: white;
 }
-
 #second{
     background-image: url("./assets/breakfast.jpg"); width: 25%;
 }
@@ -78,101 +65,88 @@ body{
 }
 #fastfood{
     display: flex;
-    margin-top: 20px;
-    
+}
+#pics{
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    box-shadow: white;
+    box-sizing: 5px,5px,5px,5px,1px white;
+}
+#fries{
+    color:black;
 }
 .drinks{
     display: flex;
     text-align: right;
     margin-top: 40px;
 }
-#mojito{
-    display: flex;
-    
-}
 .cocktails{
     text-align: right;
-    padding-right: 20px;
-}
-#pics{
-    padding:10px;
-    flex-direction: column;
-    border-style: solid;
-    border-width: 10px;
-    box-sizing: content-box;
-    display: inline-flex;
-    border-color: whitesmoke;
-}
+    padding-right: 20px;}
 
-#fries{
-    color:black;
-    font-size: 20px;
-
+#mojito{
+    display: flex;    
 }
-
-#cocktails{
-    text-align: left;
+#buton{
+    background-color: white;
+    color: #f25c2a;
+    border: solid #f25c2a;
+    padding:3px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
-.menu{
-    background-image: url();
+#menu{
+    padding-top: 15px;
+    background-image: url("./assets/foodsBg.jpg");
+    padding-bottom: 15px;
+}
+#main{
+    padding-top: -5px;
+    padding-bottom: -5px;
+    width: 70%;
+    margin-left: 15%;
     background-color: cornsilk;
-    margin: 10px;
-    padding: 0px;
 }
-
-#nav{
-    background-color: cornsilk;
-    padding:0px
+#table{   
+  padding: 5px; 
+  border-left:1px solid black ;
+  border-right: 1px solid black;
+  border-bottom: 1px;
+  border-collapse: collapse;
+  width: 873px; 
+  height: 50px;
+  background-color:grey;
+  font-size: 15px;
 }
-#nav,ul,h4{
+tr{
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding-bottom: 0px;
+    justify-content: space-around;
+}
+th{
+    padding-right: 150px;
+    color: black;
+}
+a{
+    color: #f25c2a;
+    text-decoration: unset;
+}
+th:hover{
+    color: #f25c2a;
 }
 #foods{
-    background-color: cornsilk;
+    padding-top: 20px;
     display: flex;
-    color: red;
-    justify-content:space-between;
-}
-.menu{
-    background-image: url("./assets/foodsBg.jpg");
-}
-
-
-
-.table{
-    line-height: 1.2em;
-    border-color:gainsboro ;
-    border-radius: 5px;
-    border-style: groove;
-    overflow: auto;
-}
-.moja{
-    width: 60%;
-}
-.mbili{
-    width: 40%;
-}
-td{
-    text-align: center;
-}
-.table{
-       width:250px ;
+    color:#f25c2a;
+    justify-content:space-around;
 }
 .customers{
+    padding-top:2--0px;
     display: flex;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     box-shadow: 5px 5px 5px 5px grey;
-
-    
-
-}
-.reviews{
-    
 }
 
 .contact{
