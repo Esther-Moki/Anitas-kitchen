@@ -69,7 +69,7 @@ body{
 #pics{
     display:flex;
     flex-direction: column;
-    border: 20px red;
+    border: 20px white;
     box-shadow: 5px 5px 5px 5px grey;
 }
 #fries{
@@ -84,9 +84,10 @@ body{
     text-align: right;
     padding-right: 20px;
 } 
-
 #mojito{
-    display: flex;    
+    display: flex;  
+    border: 20px white;
+    box-shadow: 5px 5px 5px 5px grey;  
 }
 #buton{
     background-color: white;
