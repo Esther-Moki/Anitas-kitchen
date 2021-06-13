@@ -63,18 +63,17 @@ body{
     margin-left: 15%;
     margin-right: 15%;
 }
-#fastfood{
+.fastfood{
     display: flex;
 }
 #pics{
-    display: flex;
-    padding:10px;
+    display:flex;
     flex-direction: column;
-    box-shadow: white;
-    box-sizing: 5px,5px,5px,5px,1px white;
+    border: 20px red;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 #fries{
-    color:black;
+    padding: 20px;
 }
 .drinks{
     display: flex;
@@ -83,7 +82,8 @@ body{
 }
 .cocktails{
     text-align: right;
-    padding-right: 20px;}
+    padding-right: 20px;
+} 
 
 #mojito{
     display: flex;    
@@ -116,7 +116,7 @@ body{
   border-collapse: collapse;
   width: 873px; 
   height: 50px;
-  background-color:grey;
+  background-color:lightgray;
   font-size: 15px;
 }
 tr{
