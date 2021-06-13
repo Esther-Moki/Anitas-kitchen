@@ -180,6 +180,7 @@ footer{
     background-color: #f25c2a;
     text-align: center;
     color: white;
+    padding-top: 10px;
     
 }
 .contact{
@@ -188,7 +189,6 @@ footer{
 }
 .fmenu{
     font-size: 20px;
-    padding: 0px;
 }
 
 
