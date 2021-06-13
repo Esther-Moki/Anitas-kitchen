@@ -143,12 +143,14 @@ th:hover{
     justify-content:space-around;
 }
 #customers{
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 70%;
+    height: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
     box-shadow: 5px 5px 5px 5px grey;
+    padding-bottom: 10px;
 }
 
 .contact{
@@ -156,7 +158,6 @@ th:hover{
     text-align: center;
     color: white;
     padding-top: 30px;
-    padding-bottom: 30px;
 
 }
 .button2{
@@ -179,7 +180,6 @@ footer{
     background-color: #f25c2a;
     text-align: center;
     color: white;
-    padding: 20px;
     
 }
 .contact{
@@ -189,7 +189,6 @@ footer{
 .fmenu{
     font-size: 20px;
     padding: 0px;
-    margin-top: -10px;
 }
 
 
