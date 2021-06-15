@@ -1,0 +1,1 @@
+The project is called Anitas-kitchen.It gives details about the dishes the restaurant offers,the drinks,the offers during happy hour.It also shows feedback from our customers on the services rendered.The project was done by Esther Moki.
